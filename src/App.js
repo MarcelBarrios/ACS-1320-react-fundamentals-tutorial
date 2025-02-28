@@ -3,13 +3,17 @@ import './App.css';
 import Title from './Title';
 import POPOSList from './POPOSList';
 import Footer from './Footer';
+import { Outlet } from 'react-router-dom'
+import POPOSDetails from './POPOSDetails'
 
 function App() {
   return (
     <div className="App">
       {/* <img src={logo} alt='logo' /> */}
       <Title />
-      <POPOSList />
+      <div className="MainContent">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );

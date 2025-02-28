@@ -1,6 +1,12 @@
 .POPOSSpace {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     text-align: center;
+}
+
+.POPOSSpace * {
+    margin-top: 8px;
 }
 
 .POPOSSpace>img {
