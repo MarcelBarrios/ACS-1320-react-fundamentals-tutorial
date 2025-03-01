@@ -1,5 +1,6 @@
 import React from 'react'
 import './POPOSFeature.css'
+import './POPOSFeature.css'
 
 function getFeature(str) {
     switch (str) {
